@@ -1,4 +1,7 @@
+import sys
+print(sys.version) 
 import cv2
+print(cv2.__version__)
 import mediapipe as mp
 import numpy as np
 import streamlit as st
